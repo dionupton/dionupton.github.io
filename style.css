@@ -163,6 +163,11 @@ a:hover, .a-hovering {
     
 }
 
+.skillstext{
+    
+    font-size: calc(1vw + 3px);
+}
+
 .left {
     display: inline-block;
     display: flex;
@@ -183,7 +188,7 @@ a:hover, .a-hovering {
 
 .image-wrap {
     width: 20.62%;
-    min-width: 130px;
+    min-width: 100px;
 
 }
 
