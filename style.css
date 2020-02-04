@@ -248,7 +248,16 @@ table.center {
 .text {
     margin: 0;
     line-height: 1.5;
+    
 }
+
+.abouttext {
+    margin: 0;
+    line-height: 1.5;
+    
+    font-size: calc(3px + 1vw)
+}
+
 .text:not(:last-child) {
     padding-bottom: 9px;
 }
