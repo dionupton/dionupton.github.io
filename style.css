@@ -116,7 +116,7 @@ a:hover, .a-hovering {
 }
 
 /*
-    Body
+    Body padding: 2vh calc(0px + 25.1%);
 */
 
 .body {
@@ -124,10 +124,11 @@ a:hover, .a-hovering {
 }
 
 .section {
-	padding: 2vh calc(0px + 25.1%);
+    
+    padding: 2vh calc(0px + 25.1%);
 	text-align: center;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .section {
         padding: 2vh 11.805%;
     }
@@ -146,7 +147,10 @@ a:hover, .a-hovering {
     border-radius: 4px;
     text-align: left;
 
-    
+    max-width: 800px;
+
+    margin-left:auto; 
+    margin-right:auto;
 }
 
 .skillproject {
@@ -262,11 +266,18 @@ table.center {
     padding-bottom: 9px;
 }
 
+.softwareportfolio .left {
+    width: 100%;
+}
+.softwareportfolio .right {
+    width: 100%;
+}
+
 .portfolio .left {
-    width: 45%;
+    width: 100%;
 }
 .portfolio .right {
-    width: 55%;
+    width: 100%;
 }
 
 .experience .left {

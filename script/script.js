@@ -29,6 +29,15 @@ $("#nav-portfolio").bind('touch mouseup', function(){
   }
   return false
 });
+// software development portfolio section
+$("#nav-softwareportfolio").bind('touch mouseup', function(){
+	if (!flag) {
+	  flag = true;
+	  setTimeout(function(){ flag = false; }, 200);
+	  scrollTo(".softwareportfolio.section",650)
+	}
+	return false
+  });
 // experience section
 $("#nav-experience").bind('touch mouseup', function(){
   if (!flag) {
